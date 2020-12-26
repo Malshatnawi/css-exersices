@@ -1,0 +1,132 @@
+header h3 {
+    margin-left: 5em;
+    margin-top: 2em;
+    margin-bottom: 0.25em;
+}
+
+header h5 {
+    margin-left: 9.5em;
+    font-family: monospace;
+    margin-top: 0em;
+
+}
+
+body div h6 {
+
+}
+
+nav div {
+    position: absolute;
+    right: 3em;
+    top: 1.5em;
+}
+
+.menu {
+    display: inline-block;
+    width: 6em;
+}
+
+.menubutton {
+    background-color: white;
+    color: black;
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+    
+}
+
+.menu-options {
+    display: none;
+    z-index: auto;
+    width: 6em;
+    right: 3em;
+
+}
+
+.menu-options a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    right: 1em;
+
+}
+
+.menu:hover .menu-options {
+    display: block;
+    background-color: white;
+    color: black;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+
+
+}
+
+.menu-options:hover a{
+
+    font-family: 'Teko', sans-serif;
+    font-size: 1.25em;
+
+}
+
+.menu:hover .menubutton {
+    background-color: black;
+    color: white;
+}
+
+
+.menu-options a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.body_intro {
+    position: absolute;
+    margin-left: 10em;
+    margin-top: 15em;
+    width: 50em;
+    
+}
+
+.body_intro h6 {
+    color: silver;
+    font-family: monospace;
+    font-size: 1.35em;
+}
+
+.body_intro h1 {
+    font-size: 4em;
+}
+
+.body_intro p {
+    font-size: 1.25em;
+    color: rgb(128, 123, 123);
+}
+
+.body_intro a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.projects {
+    position: absolute;
+    margin-left: 10em;
+    margin-top: 55em;
+
+}
+
+
+.projects h6 {
+    color: silver;
+    font-family: monospace;
+    font-size: 1.35em;
+
+}
+
+
+.projects h1 {
+    font-size: 4em;
+    margin-top: 0.35em;
+}

@@ -1,0 +1,83 @@
+#coalossal {
+    background-color: black;
+}
+
+
+#coalossal .logo_text {
+    color: white;
+
+}
+
+
+
+#logo {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo img {
+    margin-top: 3em;
+    margin-left: 3em;
+    width: 4.5em;
+    height: 4.5em;
+}
+
+#logo .logo_text {
+    margin-top: 3.4em;
+    margin-left: 1.5em;
+    font-family: monospace;
+}
+
+
+#logo h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#logo h4 {
+    font-family: monospace;
+    font-size: 0.85em;
+
+}
+
+#full_logo {
+    width: 10em;
+    height: 10em;
+    margin-right: 0em;
+    background-color: teal;
+}
+
+
+
+#main_text {
+    display: flex;
+    flex-direction: row;
+    
+}
+#thetext {
+    color:white;
+    margin-top: 5%;
+    background-color: yellow;
+    width: 95em;
+}
+
+
+#main_text h1 {
+    font-weight: bold;
+    color: red;
+    font-size: 2.5em;
+}
+
+
+#main_text p {
+
+    font-size: 1.5em;
+    color: silver;
+}
+
+#main_pic {
+    background-color: green;
+    margin-top: 4%;
+    margin-right: 5%;
+}
+

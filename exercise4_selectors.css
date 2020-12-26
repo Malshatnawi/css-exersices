@@ -1,0 +1,27 @@
+li+ul{
+    color: blue;
+}
+
+body ul ul ul{
+    list-style-type: none;
+}
+
+body ul ul{
+    list-style-type: circle;
+}
+li:first-child{
+    font-weight: bold;
+}
+
+p>a {
+    color:green;
+}
+
+li>a{
+    color:red;
+}
+
+#customized{
+    color:purple;
+    background-color: yellow;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise #1: Hiding from a list</title>
+        <style>
+            li{
+                float: left;
+                list-style-type: none;
+                border-style: solid;
+                border-width: 1px;
+                background-color: blue;
+                text-align: center;
+                width: 3em;
+                margin-right: 0.25em;
+            }
+
+            ul{
+                padding-left:0cm;
+                
+            }
+            .odd{
+                visibility: hidden;
+            }
+
+            .prime{
+                display:none;            
+                }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li class="odd">1</li>
+            <li class="prime">2</li>
+            <li class="prime odd">3</li>
+            <li>4</li>
+            <li class="prime odd">5</li>
+            <li>6</li>
+            <li class="prime odd">7</li>
+            <li>8</li>
+            <li class="odd">9</li>
+            <li>10</li>
+
+
+        </ul>
+    </body>
+</html>

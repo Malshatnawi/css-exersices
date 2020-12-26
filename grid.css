@@ -1,0 +1,35 @@
+.fruits {
+    display: grid;
+    height: 25em;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    grid-template-rows: 0.8fr 1.25fr;
+    grid-template-areas: 
+    "apple1  mango1"
+    "banana banana banana";
+    
+
+
+}
+
+
+
+.mango {
+    background-color: orange;
+    grid-area: mango1;
+}
+
+.apple {
+    background-color: red;
+    grid-area: apple1;
+}
+
+.banana {
+  background-color: yellow;
+    grid-area: banana;
+    border: 1em solid;
+}
+
+.kiwi{
+    background-color: green;
+    grid-area: kiwi;
+}
